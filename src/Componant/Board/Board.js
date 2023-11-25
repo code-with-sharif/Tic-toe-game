@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Square from '../Square/Square';
 import './Board.css';
-
+// jglkfjglhfsghkl
 function Board() {
   const [data, setData] = useState(Array(9).fill(null));
   const [xTurn, setXTurn] = useState(true);
@@ -75,8 +75,8 @@ function Board() {
 
       {!isWinner && isDraw && (
        <>
-        <h1>Both players are equal!</h1>
-         <button onClick={handlereset}>Play Again</button>
+        <h1>Both players are equal! </h1>
+         <button onClick={handlereset}> Play Again </button>
        </>
       )}
     </div>
